@@ -1,0 +1,22 @@
+@import "base.css";
+@import "component.css";
+@import "utilities.css";
+
+@media (max-width: 768px) {
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .footer {
+        height: auto;
+    padding: 10px;
+}
+}
+
